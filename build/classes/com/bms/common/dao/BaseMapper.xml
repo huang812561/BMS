@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bms.common.dao.BaseMapper">
+    <resultMap type="com.ykc.api.base.BaseEntity" id="baseResultMap">
+	  	<result property="createID" column="CRT_ID" />
+	  	<result property="createTime" column="CRT_TIME" />
+	  	<result property="updateID" column="UPD_ID" />
+	  	<result property="updateTime" column="UPD_TIME" />
+	  	<result property="delFlag" column="DEL_FLAG" />
+	  	<result property="pageSize" column="page_Size" />
+	  	<result property="pageIndex" column="page_Index" />
+    </resultMap>
+ 	
+</mapper>
